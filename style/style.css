@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  width: 100vw;
+}
+
+header nav ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li:nth-of-type(1) {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+header nav ul li:nth-of-type(2) {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  background-color: #ed1717;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#aa {
+  margin-bottom: 10%;
+  position: relative;
+  top: 50px;
+  left: 153px;
+  max-width: 80vw;
+  overflow: auto;
+}
+
+#aa input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ae2222;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#aa span {
+  display: block;
+  font-size: 20px;
+  max-width: 50%;
+}
+
+#ingo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: auto;
+}
+
+#ingo iframe {
+  margin: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 150px;
+}
+
+.ero {
+  display: none;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+  border: solid 1px #807f7f;
+  margin-bottom: 20px;
+}
+
+div {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+#fifo {
+  max-width: 80%;
+  margin: 5% auto;
+}
+
+#fifo ul li {
+  margin: 5px;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
